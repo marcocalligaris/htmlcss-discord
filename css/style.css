@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
-/* Colori */
-/* Blue #3161E0 */
+body{
+    font-family: sans-serif;
+}
 
 
 .intro{
     background-color: #3161E0;
+    color: white;
     min-height: 600px;
     padding-top: 20px;
     margin-bottom: 80px;
@@ -21,22 +23,38 @@
 }
 
 header{
-    height: 60px;
+    /* height: 60px; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
 nav{
+    display: flex;
+    justify-content: space-between;
+    
     width: 50%;
-    background-color: white;
+    /* background-color: white; */
     height: 100%;
 }
 
-.logo{
-    width: 50px;
-    height: 30px;
+.logo{}
+
+.top-menu{
+    color: white;
+    text-decoration: none;
+}
+
+.actions{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.white-but{
     background-color: white;
+    color: black;
+    font-size: 13px;
 }
 
 .welcome{
