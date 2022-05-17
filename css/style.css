@@ -10,11 +10,11 @@ body{
 
 
 .intro{
-    background-color: #3161E0;
     color: white;
     min-height: 600px;
     padding-top: 20px;
     margin-bottom: 80px;
+    background-image: url("img/jumbo.png");
 }
 
 .container{
@@ -23,22 +23,26 @@ body{
 }
 
 header{
-    /* height: 60px; */
+    background-color: #255EE9;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 50px;
+    padding: 0 10px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    
+    max-width: 1400px;
     width: 50%;
-    /* background-color: white; */
     height: 100%;
+    padding: 20px;
 }
 
-.logo{}
+.logo{
+    
+}
 
 .top-menu{
     color: white;
