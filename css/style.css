@@ -128,6 +128,7 @@ p{
 .small-col{
     flex-basis: 40%;
     padding: 30px 50px;
+    text-align: left;
 }
 
 .example-image{
@@ -142,49 +143,109 @@ p{
 #stars{
     margin-bottom: 80px;
 }
-/* .h2-title{
-    width: 300px;
-    height: 50px;
-    margin: auto;
-    background-color: black;
-    margin-bottom: 50px;
-}
-
-.download{
-    background-color: lightblue;
-    width: 150px;
-    height: 50px;
-    margin: auto;
-}
 
 footer{
-    background-color: black;
-    min-height: 650px;
+    background-color: #23272A;
+    color: white;
+    height: 100%;
 }
 
-.info{
-    padding-top: 100px;
-    max-width: 1400px;
+#footer-top{
+    display: flex;
+    padding: 50px 0;
+    height: 100%;
+    border-bottom: 2px solid #7289DA;
+}
+
+.small-col{
+    min-width: 30%;
+}
+
+.large-col{
+    min-width: 70%;
+    padding-left: 50px;
+}
+
+.small-col, .large-col{
+    padding: 10px;
+}
+
+#social-title{
+    color: #7289DA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#language{
+    margin-bottom: 20px;
+}
+
+#italy{
+    width: 18px;
+}
+
+.btm-left-menu span{
+    font-size: 14px;
+}
+
+.btm-left-menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.btm-left-menu ul li{
+    margin-right: 30px;
+}
+
+.btm-left-menu ul li a{
+    font-size: 25px;
+    color: white;
+}
+
+#intro-list{
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    list-style-type: none;
+    width: 100%;
 }
 
-.chat{
-    width: 25%;
-    height: 400px;
-    background-color: white;
+#intro-list > li{
+    margin-right: 20px;
 }
 
-.links{
-    width: 15%;
-    height: 400px;
-    background-color: white;
+.btm-right-menu{
+    width: 100%;
+    display: flex;
 }
 
-.bottom{
-    max-width: 1400px;
+
+#intro-list >li >a{
+    text-decoration: none;
+    color: #7289DA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.useful-links{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.useful-links a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-bottom{
     display: flex;
     justify-content: space-between;
-    margin: auto; */
+    align-items: center;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+#footer-bottom a{
+    font-size: 14px;
+    margin: 0;
 }
